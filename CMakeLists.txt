@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(homework3_danila_shulepin)
+project(gazebo-manipulator)
 
 find_package(catkin REQUIRED
     COMPONENTS
