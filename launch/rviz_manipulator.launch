@@ -1,8 +1,8 @@
 <launch>
 
-  <arg name="model" default="$(find homework3_danila_shulepin)/urdf/manipulator.urdf"/>
+  <arg name="model" default="$(find gazebo-manipulator)/urdf/manipulator.urdf"/>
   <arg name="gui" default="true" />
-  <arg name="rvizconfig" default="$(find homework3_danila_shulepin)/rviz/robot.rviz" />
+  <arg name="rvizconfig" default="$(find gazebo-manipulator)/rviz/robot.rviz" />
 
   <param name="robot_description" command="$(find xacro)/xacro $(arg model)" />
 
