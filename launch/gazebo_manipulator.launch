@@ -4,7 +4,7 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
-  <arg name="model" default="$(find homework3_danila_shulepin)/urdf/manipulator.urdf"/>
+  <arg name="model" default="$(find gazebo-manipulator)/urdf/manipulator.urdf"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="debug" value="$(arg debug)" />
