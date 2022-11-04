@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>homework3_danila_shulepin</name>
+  <name>gazebo-manipulator</name>
   <version>0.0.1</version>
-  <description>homework3_danila_shulepin</description>
+  <description>gazebo-manipulator</description>
 
   <maintainer email="d.shulepin@innopolis.university">d.shulepin@innopolis.university</maintainer>
   <author email="d.shulepin@innopolis.university">d.shulepin@innopolis.university</author>
